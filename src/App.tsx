@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from 'motion/react';
 export default function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <ExitPopup />

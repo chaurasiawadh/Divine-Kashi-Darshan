@@ -16,7 +16,7 @@ export default function SEO({ title, description, canonical, children }: SEOProp
     "@type": "TravelAgency",
     "name": "Divine Kashi Darshan",
     "description": "Connecting Souls to Sacred Destinations",
-    "url": window.location.origin,
+    "url": window.location.origin + import.meta.env.BASE_URL,
     "telephone": "+91-95595-57776",
     "email": "aakanksha@gmail.com",
     "address": {
